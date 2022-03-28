@@ -1,0 +1,14 @@
+GET http://localhost:8070/api/pages?id=99
+Accept: application/json
+
+###
+POST http://localhost:8070/api/books
+Content-Type: application/json
+
+{"name":"new_book_1", "id": "765"}
+
+###
+GET http://localhost:8070/api/books?id=2
+Accept: application/json
+
+###
